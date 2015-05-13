@@ -10,6 +10,12 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Desktop\Draughts.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Desktop\Draughts.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{38DF3282-6617-49BE-B85A-BDC8668A636B}</ProjectGuid>
     <RootNamespace>hw3</RootNamespace>
@@ -63,8 +69,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
